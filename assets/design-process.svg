@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="280" viewBox="0 0 600 280" role="img" aria-labelledby="title desc">
+  <title id="title">How I approach a problem</title>
+  <desc id="desc">Understand, Design, Build, Verify, Refine. Return to earlier steps as new information comes in.</desc>
+  <rect x=".5" y=".5" width="599" height="279" rx="12" fill="#ffffff" stroke="#d4d4d4" />
+  <g fill="none" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M195 80H249M241 75L249 80L241 85M360 80H440M432 75L440 80L432 85" />
+    <path d="M500 102V178H458M466 173L458 178L466 183M356 178H244M252 173L244 178L252 183" />
+    <path d="M144 178H48V115H110V104M105 112L110 104L115 112" stroke="#b0b0b0" />
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g fill="#666666" font-size="16" letter-spacing="2">
+      <text x="110" y="45">01</text><text x="307" y="45">02</text><text x="500" y="45">03</text><text x="407" y="143">04</text><text x="194" y="143">05</text>
+    </g>
+    <g fill="#111111" font-size="25" font-weight="700">
+      <text x="110" y="88">Understand</text><text x="307" y="88">Design</text><text x="500" y="88">Build</text><text x="407" y="186">Verify</text><text x="194" y="186">Refine</text>
+    </g>
+    <text x="300" y="247" fill="#666666" font-size="18">Revisit as I learn.</text>
+  </g>
+</svg>
