@@ -1,36 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm BrightBroom.</title>
-  <desc id="desc">A dark navy banner with mint typography and three paths converging into one, representing web development, software, and AI.</desc>
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#101e32" />
-      <stop offset="1" stop-color="#080e19" />
-    </linearGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M 48 0 H 0 V 48" fill="none" stroke="#b4c7df" stroke-opacity="0.055" />
-    </pattern>
-  </defs>
-  <rect width="1200" height="420" rx="20" fill="url(#background)" />
-  <rect width="1200" height="420" rx="20" fill="url(#grid)" />
-  <path d="M60 48 H92" stroke="#8ef0d1" stroke-width="3" />
+  <desc id="desc">A black and white profile banner with a geometric BB monogram. Web, software, and AI.</desc>
+  <rect width="1200" height="360" rx="18" fill="#0b0b0b" />
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="108" y="54" fill="#dce5ef" font-size="17" letter-spacing="4">BRIGHTBROOM</text>
-    <text x="60" y="169" fill="#f3f6fb" font-size="68" font-weight="700" letter-spacing="-2">Hi, I'm</text>
-    <text x="60" y="249" fill="#8ef0d1" font-size="68" font-weight="700" letter-spacing="-2">BrightBroom.</text>
-    <text x="62" y="338" fill="#b7c5d7" font-size="17" letter-spacing="3">WEB / SOFTWARE / AI</text>
+    <text x="64" y="75" fill="#bdbdbd" font-size="18" letter-spacing="4">WEB / SOFTWARE / AI</text>
+    <text x="60" y="173" fill="#ffffff" font-size="64" font-weight="700" letter-spacing="-2">Hi, I'm</text>
+    <text x="60" y="252" fill="#ffffff" font-size="76" font-weight="700" letter-spacing="-3">BrightBroom.</text>
   </g>
-  <g fill="none" stroke-linecap="round">
-    <path d="M825 120 H860 C913 120 898 210 951 210 H1092" stroke="#668199" stroke-width="2" />
-    <path d="M796 210 H1092" stroke="#8ef0d1" stroke-width="3" />
-    <path d="M825 300 H860 C913 300 898 210 951 210" stroke="#668199" stroke-width="2" />
-    <circle cx="1092" cy="210" r="34" stroke="#8ef0d1" stroke-opacity="0.18" />
-    <circle cx="1092" cy="210" r="58" stroke="#8ef0d1" stroke-opacity="0.08" />
+  <g transform="translate(861 83) scale(.57)" fill="#ffffff" fill-rule="evenodd">
+    <path d="M0 0H110C161 0 188 26 188 66C188 94 172 112 150 122C181 132 199 154 199 184C199 229 167 254 115 254H0ZM45 40V105H103C130 105 144 94 144 72C144 50 130 40 103 40ZM45 145V212H109C139 212 153 201 153 178C153 156 139 145 109 145Z" />
+    <path transform="translate(214 66)" d="M0 0H110C161 0 188 26 188 66C188 94 172 112 150 122C181 132 199 154 199 184C199 229 167 254 115 254H0ZM45 40V105H103C130 105 144 94 144 72C144 50 130 40 103 40ZM45 145V212H109C139 212 153 201 153 178C153 156 139 145 109 145Z" />
   </g>
-  <g fill="#101e32" stroke="#8ef0d1" stroke-width="2">
-    <circle cx="825" cy="120" r="6" />
-    <circle cx="796" cy="210" r="6" />
-    <circle cx="825" cy="300" r="6" />
-  </g>
-  <circle cx="1092" cy="210" r="8" fill="#8ef0d1" />
-  <path d="M60 379 H1140" stroke="#b4c7df" stroke-opacity="0.14" />
+  <path d="M64 308H1136" fill="none" stroke="#424242" />
 </svg>
