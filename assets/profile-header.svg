@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm BrightBroom.</title>
+  <desc id="desc">A dark navy banner with mint typography and three paths converging into one, representing web development, software, and AI.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101e32" />
+      <stop offset="1" stop-color="#080e19" />
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 H 0 V 48" fill="none" stroke="#b4c7df" stroke-opacity="0.055" />
+    </pattern>
+  </defs>
+  <rect width="1200" height="420" rx="20" fill="url(#background)" />
+  <rect width="1200" height="420" rx="20" fill="url(#grid)" />
+  <path d="M60 48 H92" stroke="#8ef0d1" stroke-width="3" />
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="108" y="54" fill="#dce5ef" font-size="17" letter-spacing="4">BRIGHTBROOM</text>
+    <text x="60" y="169" fill="#f3f6fb" font-size="68" font-weight="700" letter-spacing="-2">Hi, I'm</text>
+    <text x="60" y="249" fill="#8ef0d1" font-size="68" font-weight="700" letter-spacing="-2">BrightBroom.</text>
+    <text x="62" y="338" fill="#b7c5d7" font-size="17" letter-spacing="3">WEB / SOFTWARE / AI</text>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M825 120 H860 C913 120 898 210 951 210 H1092" stroke="#668199" stroke-width="2" />
+    <path d="M796 210 H1092" stroke="#8ef0d1" stroke-width="3" />
+    <path d="M825 300 H860 C913 300 898 210 951 210" stroke="#668199" stroke-width="2" />
+    <circle cx="1092" cy="210" r="34" stroke="#8ef0d1" stroke-opacity="0.18" />
+    <circle cx="1092" cy="210" r="58" stroke="#8ef0d1" stroke-opacity="0.08" />
+  </g>
+  <g fill="#101e32" stroke="#8ef0d1" stroke-width="2">
+    <circle cx="825" cy="120" r="6" />
+    <circle cx="796" cy="210" r="6" />
+    <circle cx="825" cy="300" r="6" />
+  </g>
+  <circle cx="1092" cy="210" r="8" fill="#8ef0d1" />
+  <path d="M60 379 H1140" stroke="#b4c7df" stroke-opacity="0.14" />
+</svg>
