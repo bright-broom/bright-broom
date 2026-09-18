@@ -4,44 +4,38 @@
 
 # A little about me
 
-I build web apps and write about web development and AI.
+I build web apps and write about what goes into them.
 
-I'm interested in how people get things done: keeping track of a project, making a decision, or handing work over to someone else. That shapes what I build, from the layout of a screen to the data and workflows behind it.
+My work brings together frontend development, AI, and the less visible parts of software: how people make decisions, keep track of things, and pass work on.
 
-I'm also exploring how AI can help with research, planning, coding, and review.
-
-## How I think about design
+## How I build
 
 <img src="assets/design-process.svg" width="600" alt="Understand, Design, Build, Verify, Refine. Revisit earlier steps as new information comes in." />
 
-I move back and forth between these steps as I learn more about the problem.
+There tends to be a fair bit of going back and forth here.
 
-I start with the work someone needs to do. Before choosing features or tools, I want to understand what they're trying to accomplish, what information they need, and where things get confusing.
+Before building a screen, I want to know who's using it and what they're trying to finish. That helps me decide what belongs on it, what can wait, and what needs a better explanation.
 
-For the interface, I care about clear wording, a readable layout, and controls that behave consistently. Someone should be able to tell what's happening and what to do next without having to remember how the whole system works.
+The rules behind the screen matter just as much. If an amount changes after someone checks it, does their approval still count? Working through questions like that tells me more than a list of features does.
 
-Behind the screen, I want the rules to be understandable too: how a number is calculated, who can change something, and what counts as complete. I try to make those decisions explicit so they can be checked and revisited.
-
-I see documentation as part of the design. The next person should be able to find out why something works the way it does, what's been verified, and what still needs attention.
-
-The same thinking shapes how I use AI. I want to understand and check what it produces, and keep the decisions that need human judgment visible.
+I also try to leave the reasoning in the notes. The code can show what happens; it doesn't always explain why we chose it, what we've checked, or what's still undecided.
 
 ## Currently exploring
 
-How to turn requirements into decisions that can be tested, and how code knowledge graphs can give AI reviewers useful context without hiding what they still need to check.
+I'm interested in making requirements easier to test, and in how code knowledge graphs can help AI review a codebase. I'm curious about what they miss, too. A shorter prompt is useful, but I still want to know whether the review holds up.
 
 ## Writing
 
-Writing helps me work through these questions. I publish in Japanese on [Zenn](https://zenn.dev/koenigwolf) and [Qiita](https://qiita.com/brightbroom).
+I write in Japanese on [Zenn](https://zenn.dev/koenigwolf) and [Qiita](https://qiita.com/brightbroom), often about the questions above.
 
-A couple of pieces to start with, with English titles here for reference:
+Two articles to start with (titles translated here):
 
-- **[Requirements definition: what to decide before building an approval button](https://zenn.dev/koenigwolf/articles/requirements-definition-guide)** — Connecting business decisions, system behavior, and acceptance criteria.
-- **[Can code knowledge graphs improve AI code review?](https://zenn.dev/koenigwolf/articles/code-knowledge-graph-ai-review)** — Examining token-saving claims, missing context, and what still needs verification.
+- [What to decide before building an approval button](https://zenn.dev/koenigwolf/articles/requirements-definition-guide)
+- [Can code knowledge graphs improve AI code review?](https://zenn.dev/koenigwolf/articles/code-knowledge-graph-ai-review)
 
 ## Tools I use
 
-I work with **TypeScript, React, Next.js, Tailwind CSS, and PostgreSQL**, alongside GitHub and Vercel. I also work with Google OAuth and MCP integrations.
+TypeScript, React, Next.js, Tailwind CSS, and PostgreSQL. GitHub and Vercel for development and deployment, with Google OAuth and MCP where they're needed.
 
 ---
 
